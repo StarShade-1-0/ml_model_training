@@ -1,0 +1,29 @@
+EXOPLANET DATA SPLIT SUMMARY (WITH OVERFITTING PREVENTION)
+======================================================================
+
+OVERFITTING PREVENTION TECHNIQUES APPLIED:
+1. Class balancing method: smote
+2. Larger validation/test sets (20%/20%)
+3. Stratified sampling
+
+Random State: 42
+Total features: 17
+
+Train samples: 6778 (62.31%)
+Validation samples: 2050 (18.85%)
+Test samples: 2050 (18.85%)
+
+Class Distribution:
+--------------------------------------------------
+
+Train:
+  0 (FALSE POSITIVE): 3389 (50.00%)
+  1 (CONFIRMED): 3389 (50.00%)
+
+Validation:
+  0 (FALSE POSITIVE): 1129 (55.07%)
+  1 (CONFIRMED): 921 (44.93%)
+
+Test:
+  0 (FALSE POSITIVE): 1130 (55.12%)
+  1 (CONFIRMED): 920 (44.88%)
